@@ -1,0 +1,12 @@
+z moich obserwacji wynika ze powinno sie znalezc zloty srodek. Od momentu, kiedy polynominal zaczyna wynosic wiecej niz 4
+widzimy ze zaczynaja sie dziac troszke dziwne rzeczy. najpierw przy piatce mamy uskok w dol, ktory jest spowodowany proba
+dopasowania lepsza do przedostatnich punktow, a jak dalej bedziemy podnosic to znowu bedzie ogromna gorka. przy 10 gorka
+siega takich rozmiarow ze wykres jest totalnie nie czytelny, a przy prykladowo trzydziestu zaczyna osiagac wartosci ujemne
+typu -80 000. dlatego wlasnie trzeba znalezc jakas nie za duza potege, ale rowniez nie za mala, zeby dac lekka wolnosc,
+do tego zeby mogla "popracowac".
+
+
+z mojego krotkiego researchu juz po napisaniu pierwszych obserwacji wynika ze to mozna ladniej nazwac zapewnieniem rownowagi
+miedzy dopasowaniem danych, a nadmiernym dopasowaniem, czyli overfitting. "Zwiększanie stopnia wielomianu może prowadzić do
+coraz lepszego dopasowania do danych treningowych, ale może również prowadzić do zwiększenia błędu na danych testowych lub
+nowych danych" co wlasnie zauwazylismy.
